@@ -14,7 +14,7 @@ public class TestSector {
     }
 
     @Test(testName = "Submit a WebForm")
-    public static void submitForm(){
+    public static void formTest(){
         driver.get(Utils.BASE_URL);
         WebForm webForm = new WebForm(driver);
         webForm.enterFirstName();
